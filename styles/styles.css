@@ -44,7 +44,12 @@ img {
 }
 
 /* nav styles */
+.section-black {
+  background: var(--black);
+  width: 100%;
+}
 nav {
+  margin: 0 auto;
   font-family: var(--mono);
   font-size: 80%;
   padding: 1rem;
@@ -251,5 +256,18 @@ footer ul {
   }
   #projects .left-aligned img {
     grid-column: 6/11;
+  }
+  .section-black {
+    position: sticky;
+    top: 0px;
+  }
+  .nav-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  .nav-main {
+    display: none;
   }
 }
