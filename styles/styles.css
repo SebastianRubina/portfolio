@@ -1,4 +1,18 @@
 :root {
+  --black: #1d201f;
+  --dkblue: #c58882;
+  --plum: #1d201f;
+  --hotmag: #ff17e4;
+  --magenta: #df928e;
+  --aqua: #ead2ac;
+  --white: #d1dede;
+  --font-size: 1.3rem;
+  --mono: "Oxygen mono", monospace;
+  --sans: Oxygen, sans-serif;
+}
+
+/*
+:root {
   --black: #171321;
   --dkblue: #0d314b;
   --plum: #4b0d49;
@@ -10,6 +24,7 @@
   --mono: "Oxygen mono", monospace;
   --sans: Oxygen, sans-serif;
 }
+*/
 
 * {
   box-sizing: border-box;
